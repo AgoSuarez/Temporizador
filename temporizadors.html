@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Atras</title>
+
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+
+<body>
+    <div class="alarma" id="alarma">
+        <img src="./imagenes/ring.gif" alt="">
+        <div class="btn-ok boton" id="btn-ok">OK</div>
+    </div>
+    <main>
+        <article class="hora">
+            <h1>Temporizador</h1>
+        </article>
+        <article class="">
+            <input class="span" type="number" name="hora" id="hora" placeholder="HH" min=0 max=24 size="2"><label
+                class="span span2" for="hora">:</label>
+            <input class="span" type="number" name="minutos" id="minutos" placeholder="MM"" min=0 max=59><label class="
+                span span2" for="minutos">:</label>
+            <input class="span" type="number" name="segundos" id="segundos" placeholder="SS" min=0 max=59><label
+                class="span span2" for="segundos">:</label>
+            <input class="span" type="number" name="decimas" id="decimas" placeholder="DD" min=0 max=99>
+        </article>
+        <article class="botones">
+            <div class="boton" id="boton">Iniciar</div>
+            <div class="boton disable" id="boton3">Reiniciar</div>
+            <div class="boton disable" id="boton2">Stop</div>
+        </article>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
