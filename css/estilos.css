@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../imagenes/fondo.jpeg");
+  background-image: url("../imagenes/fondo.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@ main {
   font-weight: bold;
   font-size: 100px;
   text-align: right;
-  color: rgb(199, 199, 199);
+  color: rgb(88, 86, 86);
   border: 5px solid black;
   border-radius: 7px;
   background-color: rgba(0, 0, 0, 0.2);
